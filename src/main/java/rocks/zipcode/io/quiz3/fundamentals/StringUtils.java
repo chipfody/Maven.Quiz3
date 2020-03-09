@@ -1,6 +1,7 @@
 package rocks.zipcode.io.quiz3.fundamentals;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -21,10 +22,19 @@ public class StringUtils {
     }
 
     public static String[] getAllSubStrings(String string) {
-        return null;
+//        List<String> subStrings = new ArrayList<>();
+//        for (int i = 0; i < string.length(); i++) {
+//            for (int j = 0; j < string.length() - 1; j++){
+//                String temp = string.substring(i, i+j);
+//                subStrings.add(temp);
+//            }
+//            Integer arraySize = subStrings.size();
+//            String[] result = subStrings.toArray(new String[arraySize]);
+//        }
+        return null; //Arrays.toString(result);
     }
 
     public static Integer getNumberOfSubStrings(String input){
-        return null;
+        return getAllSubStrings(input).length;
     }
 }
